@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-      Xin chao moi nguoi hehe
+      hihi
     </a>
       </header>
     </div>
