@@ -24,6 +24,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: echo "RUNNER_NAME=$RUNNER_NAME"
     - run: npm ci
     - run: npm run build --if-present
     - run: cd && scp -r actions-runner/_work/demo-react1/demo-react1/build/*  /var/www/build
